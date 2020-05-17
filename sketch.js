@@ -168,11 +168,11 @@ function draw() {
   base_image = new Image();
   base_image.src = notes[currentNote].img;
   context.drawImage(base_image, (width / 2) - 75, 50, 150, 150);
-  textSize(32)
+  //textSize(32)
   //text(notes[currentNote].note, width / 2, height - 375)
   //text(notes[currentNote].freq, width / 2, height - 325)
-  text(notes[currentNote].freq, width / 2, height - 375)
-  textSize(64)
+  //text(notes[currentNote].freq, width / 2, height - 375)
+  //textSize(64)
 
   text(freq.toFixed(2), width / 2, height - 150);
 
